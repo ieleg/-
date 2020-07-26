@@ -1,0 +1,57 @@
+.dialog{
+  display: flex;
+  height: 40px;
+  width: 1066px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.left{
+  display: flex;
+  position: relative;
+
+}
+span:hover{
+  /* transform: scale(1.2); */
+  color: #0098FF;
+}
+.left span{
+  margin-right: 16px;
+}
+.left span:nth-child(1),.left span:nth-child(2){
+  border: .5px dashed #4D4D4D;
+}
+.right{
+  display: flex;
+}
+.right span{
+  margin-left: 16px;
+}
+.center{
+  height: 30px;
+  width: 30px;
+  border: 1px solid rgba(217,217,217,1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-line{
+  width:1px;
+  height:14px;
+  background:rgba(0,0,0,1);
+  opacity:0.1;
+}
+.drop-down >div{
+  width:100px;
+  height:32px;
+  line-height: 32px;
+  text-align: left;
+  padding-left: 12px;
+}
+.drop-down > div:hover{
+  background-color: #0099FF;
+  color: #fff;
+  cursor: pointer;
+
+}
